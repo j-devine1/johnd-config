@@ -23,5 +23,13 @@
 			"$2"
 		],
 		"description": "Log output to console"
+	},
+	"Print to console with string": {
+		"scope": "javascript,typescript",
+		"prefix": "clo",
+		"body": [
+			"console.log('$1', $2);",
+		],
+		"description": "Log string + object output to console"
 	}
 }
